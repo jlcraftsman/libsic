@@ -1,0 +1,77 @@
+body:has(#b875200d-f708-4485-b948-03ad306faf0d) > #b875200d-f708-4485-b948-03ad306faf0d {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    background-color: hsl(180, 100%, 97%);
+    padding: .545rem;
+    border-bottom: 3px solid hsl(180, 26%, 64%);
+}
+
+body:has(#b875200d-f708-4485-b948-03ad306faf0d) > #b875200d-f708-4485-b948-03ad306faf0d::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://img.freepik.com/fotos-gratis/plano-de-fundo-da-pintura-de-natureza-morta_23-2149104141.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1
+}
+
+body:has(#d4caf47a-2d05-4253-aedb-87bd5b6df80e) > #d4caf47a-2d05-4253-aedb-87bd5b6df80e {
+    padding: .456rem;
+
+    & > #h91bc43e-7f36-43ed-b31f-684f9e017f8f {
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        gap: .895rem;
+        width: 476px;
+        margin-top: 1.856rem;
+        padding: 0;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    & > #h91bc43e-7f36-43ed-b31f-684f9e017f8f > a > .music-6b25edf6-f045-4e34-87c9-d747686838a1 {
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            background-color: hsl(180, 2%, 19%);
+            color: hsl(0, 0%, 100%);
+        }
+
+        & > .g5c3e7ab-d458-46bc-aef6-58d0ce6078d0 {
+            display: flex;
+            align-items: center;
+            gap: .856rem;
+        }
+    }
+}
+
+body:has(#bb5dbd3a-7ab2-4f0a-8bd4-23b7f6cfcf3c) > #bb5dbd3a-7ab2-4f0a-8bd4-23b7f6cfcf3c {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    background-color: hsl(180, 100%, 97%);
+    padding: .545rem;
+    border-top: 3px solid hsl(180, 26%, 64%);
+    border-bottom: 3px solid hsl(180, 26%, 64%);
+    margin-top: 1.545rem;
+}
+
+body:has(#bb5dbd3a-7ab2-4f0a-8bd4-23b7f6cfcf3c) > #bb5dbd3a-7ab2-4f0a-8bd4-23b7f6cfcf3c::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://img.freepik.com/fotos-gratis/plano-de-fundo-da-pintura-de-natureza-morta_23-2149104141.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: 1;
+}
